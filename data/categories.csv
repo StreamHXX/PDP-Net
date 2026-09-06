@@ -1,0 +1,19 @@
+paper_number,group,degradation_pattern,paper_image_count
+1,Contrast/Color,Color Temperature Shift,6798
+2,Contrast/Color,Contrast Enhancement,6798
+3,Contrast/Color,Histogram Equalization,6798
+4,Contrast/Color,Solarization,6798
+5,Contrast/Color,Saturation Distortion,6798
+6,Obstruction,Block Blotch Occlusion,6798
+7,Obstruction,Horizontal Stripe Occlusion,6798
+8,Obstruction,Vertical Stripe Occlusion,6798
+9,Obstruction,Lens Contamination,6798
+10,Noise,Monochrome Impulse Noise,6798
+11,Noise,Color Impulse Noise,6798
+12,Motion,Motion Blur,6798
+13,Abnormal Lighting,Low Illumination,6798
+14,Abnormal Lighting,Overexposure,6798
+15,Adverse Weather,Fog,1800
+16,Adverse Weather,Snow,1800
+17,Adverse Weather,Rain,1800
+18,Adverse Weather,Sandstorm,1800

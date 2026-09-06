@@ -1,0 +1,12 @@
+# Inferred from the original training script; versions have not been validated.
+# Use the authors' working environment for an exact reproduction environment.
+torch
+torchvision
+Pillow
+numpy
+tqdm
+matplotlib
+scikit-learn
+seaborn
+# Used by the optional FLOPs profiler in the original script.
+thop

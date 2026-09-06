@@ -1,0 +1,8 @@
+# Separate dependencies for the original degradation-generation tool.
+# This is an inferred dependency list, not a tested or version-locked environment.
+imgaug
+numpy
+opencv-python
+Pillow
+# Used by the imgaug.imgcorruptlike.Spatter augmentation.
+imagecorruptions
