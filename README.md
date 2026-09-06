@@ -94,14 +94,14 @@ The paper's experiment environment uses Python 3.8, PyTorch 2.0.0, and CUDA 11.8
 Prepare images under `dataset/<class_folder>/<image>` and run:
 
 ```bash
-python "PDPNet_train_model(1).py"
+python "PDPNet_model.py"
 ```
 
 The script trains the model, selects the checkpoint with the best validation macro F1, and generates evaluation reports and visualizations in `results_multibranch/`. Configuration is defined in the script's `main()` function. See [training instructions](docs/USAGE.md#training-and-evaluation) for input paths, pretrained backbone loading, and outputs.
 
 ## Degradation generation
 
-`main.py` provides the image degradation generation functions. Install the generation dependencies and follow the [generation guide](docs/USAGE.md#generating-degraded-images):
+`degradation_toolkit.py` provides the image degradation generation functions. Install the generation dependencies and follow the [generation guide](docs/USAGE.md#generating-degraded-images):
 
 ```bash
 python -m pip install -r requirements-generation.txt
