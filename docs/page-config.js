@@ -4,6 +4,6 @@ window.PDP_PAGE = {
   authors: "",
   affiliations: "",
   paper: "https://example.com/pdp-net/paper",
-  code: "https://example.com/pdp-net/code",
+  code: "https://github.com/StreamHXX/PDP-Net",
   dataset: "https://drive.google.com/drive/folders/REPLACE_WITH_VPD18_FOLDER_ID"
 };
