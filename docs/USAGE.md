@@ -11,7 +11,7 @@ The original implementation uses `torch.cuda.amp` and enables several CUDA perfo
 Run from the repository root after preparing `dataset/<class_folder>/<image>`:
 
 ```bash
-python "PDPNet_train_model(1).py"
+python "PDPNet_model.py"
 ```
 
 The supplied script uses relative paths `./dataset`, `./pretrained/resnet50-11ad3fa6.pth`, and `./results_multibranch`. If the local backbone weights are absent or cannot be loaded, the original code requests torchvision's ImageNet-pretrained ResNet50 weights. A task-trained PDP-Net checkpoint is not included.
