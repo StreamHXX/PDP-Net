@@ -54,7 +54,7 @@ VPD-18 spans contrast/color, obstruction, noise, motion, abnormal lighting, and 
 | Adverse Weather | 4 | 7,200 |
 | **Total** | **18** | **102,372** |
 
-**[Download VPD-18 from Google Drive](https://drive.google.com/drive/folders/REPLACE_WITH_VPD18_FOLDER_ID)**
+**[Download VPD-18 from Google Drive](https://1drv.ms/u/c/d2bc807e69a81299/IQDZoh7zmL65QKxjQyNZetRjAawi7odomj5WeBlqFAk759I?e=Y0CDQR)**
 
 See [data preparation](data/README.md) for the full taxonomy and the training directory format. The image archive is distributed separately from the code.
 
